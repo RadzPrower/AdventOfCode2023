@@ -17,7 +17,7 @@ namespace AdventOfCode2023
             Console.WriteLine("Which day's assignment do you wish to run?");
             Console.WriteLine("    1. Trebuchet?!".PadRight(35) + "14: ???");
             Console.WriteLine("    2. Cube Conundrum".PadRight(35) + "15: ???");
-            Console.WriteLine("    3. ???".PadRight(35) + "16: ???");
+            Console.WriteLine("    3. Gear Ratios".PadRight(35) + "16: ???");
             Console.WriteLine("    4. ???".PadRight(35) + "17: ???");
             Console.WriteLine("    5. ???".PadRight(35) + "18: ???");
             Console.WriteLine("    6. ???".PadRight(35) + "19: ???");
@@ -179,16 +179,5 @@ namespace AdventOfCode2023
             }
             return sum;
         }
-    }
-
-    // Some global variables for use between all methods without having to manually pass them each time
-    public static class GlobalVar
-    {
-        public static (int x, int y) start = (0, 0);
-        public static (int x, int y) end = (0, 0);
-        public static Dictionary<(int x, int y), int> visitedNodes = new Dictionary<(int x, int y), int>();
-        public static string[] lines;
-        public static (int x, int y) scenic;
-        internal static int depth;
     }
 }
