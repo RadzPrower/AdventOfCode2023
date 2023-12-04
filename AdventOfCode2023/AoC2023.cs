@@ -13,7 +13,7 @@ namespace AdventOfCode2023
             Console.WriteLine("    1. Trebuchet?!".PadRight(35) + "14: ???");
             Console.WriteLine("    2. Cube Conundrum".PadRight(35) + "15: ???");
             Console.WriteLine("    3. Gear Ratios".PadRight(35) + "16: ???");
-            Console.WriteLine("    4. ???".PadRight(35) + "17: ???");
+            Console.WriteLine("    4. Scratchcards".PadRight(35) + "17: ???");
             Console.WriteLine("    5. ???".PadRight(35) + "18: ???");
             Console.WriteLine("    6. ???".PadRight(35) + "19: ???");
             Console.WriteLine("    7: ???".PadRight(35) + "20: ???");
